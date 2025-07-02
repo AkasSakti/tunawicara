@@ -1,0 +1,19 @@
+name: tunawicara
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+      - streamlit
+      - opencv-python
+      - mediapipe
+      - tensorflow
+      - keras
+      - pillow
+      - numpy
+      - scikit-learn
+      - imutils
+      - h5py
+      - dlib
